@@ -30,4 +30,4 @@ drv.get(
 # drv.find_element_by_class_name("btn btn-success")
 # 上述两种方式均未找到相应的span元素，未知原因。
 drv.find_element_by_xpath('//span[@class="btn btn-success"]').click()
-
+drv.close()
